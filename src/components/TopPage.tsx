@@ -28,7 +28,7 @@ export default function TopPage() {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  // ...user, loadingはuseLineUserから取得するため、fetchUserやsetUser/setLoadingのローカル管理は不要...
+  // ...user, loadingはuseLineUserから取得するため、fetchUserやsetUser/setLoadingのローカル管理は不要......
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
